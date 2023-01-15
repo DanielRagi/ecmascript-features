@@ -9,7 +9,7 @@ const anotherFunction = () => {
 }
 
 anotherFunction()
-    .then(response => console.log(response()))      // Cuando se resuelva.
+    .then(response => console.log(response))      // Cuando se resuelva.
     // .then (...)                                  // Si se necesitan poner más.
     .catch(err => console.log(err));                // Si no se resuelve.
 
